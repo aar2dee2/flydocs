@@ -1,6 +1,6 @@
 # Elixir/Phoenix Deployment Error - "Release Command Failed, Deployment Aborted"
 
-If you've made it here you're almost done with deploying your app on Fly.
+If you've made it here you're almost done with deploying your app on Fly!
 
 Here are a few tips to get you started
 - To get more information on the error, run `flyctl logs` or `fly logs`.
