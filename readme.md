@@ -21,11 +21,11 @@ Here are a few tips to get you started
   [error] Postgrex.Protocol (#PID<0.162.0>) failed to connect: ** (DBConnection.ConnectionError) tcp connect
   ```
   
-  You can check your db status with `fly status -a <app-db>` (e.g. `fly status -a hello-elixir-db`). If the database is up and running, check that `[:inet6]` is configured in socket_options in `config/runtime.exs`
-      ```
-      config :web_app, WebApp.Repo,
-        socket_options: [:inet6]
-      ```
+  You can check your db status with `fly status -a <app-db>` (e.g. `fly status -a hello-elixir-db`). If the database is up and running, check that `[:inet6]` is configured in socket_options in `config/runtime.exs`.
+  ```elixir
+  config :web_app, WebApp.Repo,
+    socket_options: [:inet6]
+  ```
    If you don't see your database running, check that the database is setup and attached to the app, and the `DATABASE_URL` variable has been set (this should show up with `flyctl secrets list`). You can refer to the [Postgres on Fly guide](https://fly.io/docs/reference/postgres/) for setting up and attaching your database.
  
  
