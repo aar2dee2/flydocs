@@ -35,4 +35,4 @@ Here are a few tips to get you started
   - [Errors deploying new pg cluster - :nxdomain](https://community.fly.io/t/errors-deploying-new-pg-cluster-nxdomain/3432)
 
 
-If the above do not help resolve the error, please share your app instance's `fly.toml` and logs (Run `fly logs -a <app_name>` ) and we'll investigate further. You can post on [Fly Community](community.fly.io) or write to support@fly.io
+If the above do not help resolve the error, please share your app instance's `fly.toml` and logs (Run `fly logs -a <app_name>` ) and we'll investigate further. You can post on [Fly Community](https://community.fly.io/) or write to support@fly.io
