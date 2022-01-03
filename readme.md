@@ -9,7 +9,7 @@ Here are a few tips to get you started
 ## Troubleshooting common error messages:
 
   ### Release module not available
-  ```
+  ```output
   (UndefinedFunctionError) function xxx.Release.migrate/0 is undefined (module xxx.Release is not available)
   ```
   
@@ -17,7 +17,7 @@ Here are a few tips to get you started
   
   
   ### Database Connection error
-  ```
+  ```output
   [error] Postgrex.Protocol (#PID<0.162.0>) failed to connect: ** (DBConnection.ConnectionError) tcp connect
   ```
   
